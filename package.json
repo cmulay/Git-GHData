@@ -8,7 +8,7 @@
     "build": "ncc build index.js --out dist --minify"
   },
   "dependencies": {
-    "@octokit/rest": "18.4.0",
+    "@octokit/rest": "18.5.1",
     "axios": "^0.21.1",
     "dotenv": "8.2.0",
     "humanize-number": "0.0.2"

@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@octokit/rest"
+    versions:
+    - 18.1.1
+    - 18.2.0
+    - 18.2.1
+    - 18.3.0
+    - 18.3.1
+    - 18.3.2
+    - 18.3.4
+  - dependency-name: husky
+    versions:
+    - 5.0.9
+    - 5.1.1
+    - 5.1.2
